@@ -1,0 +1,131 @@
+#customize-controls .control-section-medical_hospital .accordion-section-title:hover,
+#customize-controls .control-section-medical_hospital .accordion-section-title:focus {
+	background-color: #fff;
+}
+
+.control-section-medical_hospital .accordion-section-title .button {
+	margin-top:  -4px;
+	font-weight: 400;
+	margin-left: 8px;
+}
+
+.rtl .control-section-medical_hospital .accordion-section-title .button {
+	margin-left:  0;
+	margin-right: 8px;
+}
+
+/*---- Button Input CSS ----*/
+li#customize-control-medical_hospital_top_button_padding,
+li#customize-control-medical_hospital_bottom_button_padding,
+li#customize-control-medical_hospital_left_button_padding,
+li#customize-control-medical_hospital_right_button_padding,
+li#customize-control-medical_hospital_product_top_padding,
+li#customize-control-medical_hospital_product_bottom_padding,
+li#customize-control-medical_hospital_product_left_padding,
+li#customize-control-medical_hospital_product_right_padding,
+li#customize-control-medical_hospital_product_button_top_padding,
+li#customize-control-medical_hospital_product_button_bottom_padding,
+li#customize-control-medical_hospital_product_button_left_padding,
+li#customize-control-medical_hospital_product_button_right_padding,
+li#customize-control-medical_hospital_product_sale_top_padding,
+li#customize-control-medical_hospital_product_sale_bottom_padding,
+li#customize-control-medical_hospital_product_sale_left_padding,
+li#customize-control-medical_hospital_product_sale_right_padding{
+	clear: none;
+	width: 22%;
+	margin-right: 10px;
+	text-align: center;
+}
+li#customize-control-medical_hospital_right_button_padding,
+li#customize-control-medical_hospital_product_right_padding,
+li#customize-control-medical_hospital_product_button_right_padding,
+li#customize-control-medical_hospital_product_sale_right_padding,
+li#customize-control-medical_hospital_product_right_padding{
+	margin: 0;
+}
+li#customize-control-medical_hospital_top_button_padding label,
+li#customize-control-medical_hospital_bottom_button_padding label,
+li#customize-control-medical_hospital_left_button_padding label,
+li#customize-control-medical_hospital_right_button_padding label{
+	font-weight: 500;
+	font-size: 13px;
+}
+input#_customize-input-medical_hospital_button_padding,
+input#_customize-input-medical_hospital_product_padding,
+input#_customize-input-medical_hospital_product_button_padding,
+input#_customize-input-medical_hospital_product_sale_padding{
+	display: none;
+}
+li#customize-control-medical_hospital_button_padding,
+li#customize-control-medical_hospital_product_padding,
+li#customize-control-medical_hospital_product_button_padding,
+li#customize-control-medical_hospital_product_sale_padding{
+	margin-bottom: 0px;
+}
+
+li#customize-control-medical_hospital_product_border_radius,
+li#customize-control-medical_hospital_products_per_row,
+li#customize-control-medical_hospital_product_button_border_radius{
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
+}
+
+/*---- Input Range CSS ----*/
+input[type="range"] {
+	-webkit-appearance: none;
+    width: 80%;
+    margin: 12px 0;
+    background: #fff;
+    height: 6px;
+}
+input[type="range"]:focus {
+    outline: 0;
+}
+input[type=range]::-webkit-slider-thumb {
+	-webkit-appearance: none;
+	height: 20px;
+	width: 12px;
+	border-radius: 20px;
+	background: #0073aa;
+	cursor: pointer;
+	box-shadow: 1px 1px 4px #5c5757;
+}
+.cs-range-value {
+    float: right;
+    padding: 5px 8px;
+    border-radius: 4px;
+    font-size: 15px;
+    background: #fff;
+    border: 1px solid #7e8993;
+}
+
+/*---- coyright Input CSS ----*/
+li#customize-control-medical_hospital_bottom_topbar_padding,
+li#customize-control-medical_hospital_top_topbar_padding,
+li#customize-control-medical_hospital_top_copyright_padding,
+li#customize-control-medical_hospital_bottom_copyright_padding,
+li#customize-control-medical_hospital_top_sticky_header_padding,
+li#customize-control-medical_hospital_bottom_sticky_header_padding{
+	width: 46%;
+	margin-right: 10px;
+	clear: none;
+}
+input#_customize-input-medical_hospital_topbar_padding,
+input#_customize-input-medical_hospital_copyright_padding {
+    display: none;
+}
+li#customize-control-medical_hospital_topbar_padding,
+li#customize-control-medical_hospital_copyright_padding{
+	margin:0;
+}
+label.customize-control-title{
+	clear: both;
+}
+span#_customize-description-medical_hospital_top_topbar_padding,
+span#_customize-description-medical_hospital_bottom_topbar_padding,
+span#_customize-description-medical_hospital_top_copyright_padding,
+span#_customize-description-medical_hospital_bottom_copyright_padding,
+span#_customize-description-medical_hospital_top_sticky_header_padding,
+span#_customize-description-medical_hospital_bottom_sticky_header_padding{
+    font-weight: 600;
+}
